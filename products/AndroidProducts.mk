@@ -14,10 +14,14 @@
 
 # Product Makefiles
 PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/J606F/aospa_J606F.mk \
+    $(LOCAL_DIR)/jasmine_sprout/aospa_jasmine_sprout.mk \
     $(LOCAL_DIR)/oneplus9/aospa_oneplus9.mk \
     $(LOCAL_DIR)/oneplus9pro/aospa_oneplus9pro.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
+    aospa_J606F-userdebug \
+    aospa_jasmine_sprout-userdebug \
     aospa_oneplus9-userdebug \
     aospa_oneplus9pro-userdebug
